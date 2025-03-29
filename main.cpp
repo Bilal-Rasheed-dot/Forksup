@@ -23,8 +23,7 @@ public:
             cerr << "Error opening database: " << sqlite3_errmsg(db) << endl;
         }
     }
-
-    // Getter function to provide access to sqlite3* instance
+   // Getter function to provide access to sqlite3* instance
     sqlite3 *getDB()
     {
         return db;
